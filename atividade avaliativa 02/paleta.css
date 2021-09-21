@@ -1,0 +1,225 @@
+#back {
+    background-image:url(./imagens/fundoregistro.jpg);
+}
+
+#nave {
+
+    background-image: url(./imagens/fundo2);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#log {
+
+    background-color: rgb(238, 224, 245);
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.container {
+    margin-top: 200px
+}
+
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+.card-wrapper {
+    margin-bottom: 30px;
+  }
+  .card-image .card .card-img-wrapper {
+    height: 100%;
+  }
+  .card-image .card .card-body {
+    display: none;
+  }
+  .card-image-title-description .card .card-img-wrapper {
+    max-height: 160px;
+  }
+  .card-image-title-description .card {
+    position: relative;
+    min-height: 300px;
+  }
+  .card-image-title-description .card .card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
+  }
+  .card-image-title-description .card:hover .card-body {
+    top: -70px;
+  }
+  .card-image-title-description .card .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: 100%;
+  }
+  .card:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+  }
+  .card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+  }
+  .card-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .card:hover .card-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+  }
+  .card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
+  }
+  .card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.2s ease;
+  }
+  .card:hover .card-body {
+    height: 80%;
+  }
+  .card:hover .card-content {
+    bottom: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+ 
+  .container-fluid {
+      overflow: hidden;
+      margin-top: 250px;
+      background: #262626;
+      color: #627482 !important;
+      margin-bottom: 0;
+      padding-bottom: 0
+  }
+ 
+  small {
+      font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  .bold-text {
+      color: #989c9e !important
+  }
+ 
+  .mt-55 {
+      margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  h3 {
+      font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+ 
+  .social {
+      font-size: 21px !important
+  }
+ 
+  .rights {
+      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+  }
+
+

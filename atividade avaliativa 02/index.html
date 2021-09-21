@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./paleta.css">
+  <link rel="stylesheet" href="./reg.css">
+
+</head>
+
+<body style="background-color: #152733">
+
+
+  <!--Caixa de Registro-->
+
+
+  <div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Registre-se</h3>
+                    <p>Preencha os dados abaixo</p>
+                    <form class="requires-validation" novalidate>
+
+                        <div class="col-md-12">
+                           <input class="form-control" type="text" name="name" placeholder="Nome Completo" required>
+                           <div class="valid-feedback">Username field is valid!</div>
+                           <div class="invalid-feedback">Username field cannot be blank!</div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="email" name="email" placeholder="Endereço de email" required>
+                             <div class="valid-feedback">Email field is valid!</div>
+                             <div class="invalid-feedback">Email field cannot be blank!</div>
+                        </div>
+
+                       <div class="col-md-12">
+                            <select class="form-select mt-3" required>
+                              <option selected disabled value="">Cargo</option>
+                              <option value="jweb">Funcionario Publico</option>
+                              <option value="sweb">Funcionario Privado</option>
+                              <option value="pmanager">Nenhuma das duas opções</option>
+                           </select>
+                            <div class="valid-feedback">You selected a position!</div>
+                            <div class="invalid-feedback">Please select a position!</div>
+                       </div>
+
+
+                       <div class="col-md-12">
+                          <input class="form-control" type="password" name="password" placeholder="Senha" required>
+                           <div class="valid-feedback">Password field is valid!</div>
+                           <div class="invalid-feedback">Password field cannot be blank!</div>
+                       </div>
+
+
+                       <div class="col-md-12 mt-3">
+                        <label class="mb-3 mr-1" for="gender">Genero: </label>
+
+                        <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                        <label class="btn btn-sm btn-outline-secondary" for="male">Homem</label>
+
+                        <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                        <label class="btn btn-sm btn-outline-secondary" for="female">Mulher</label>
+
+                        <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                        <label class="btn btn-sm btn-outline-secondary" for="secret">Prefiro não dizer</label>
+                           <div class="valid-feedback mv-up">You selected a gender!</div>
+                            <div class="invalid-feedback mv-up">Please select a gender!</div>
+                        </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label class="form-check-label">Eu confirmo que meus dados estão corretos</label>
+                     <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                    </div>
+              
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary"><a href="./PP.html" style="color: white;">Registrar</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
